@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <h3 class="meio">Menu</h3>
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li class="inside"><a href="contatos.html">Contatos</a></li>
+                <li class="inside"><a href="atendimentos.html">Atendimentos</a></li>
+                <li class="inside"><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+               <img class="imgsobre" src="https://www.meuconsultorio.com/wp-content/uploads/2020/11/como-otimizar-a-gestao-do-consultorio-medico.jpg" alt="">
+                <!-- Aqui vai o seu header -->
+            </div>
+    
+            <div class="content">
+                <p><strong>Opções de contatos da Clínica Ribeiro</strong> <br> <br>
+                    Whatsapp: (31) 9 9999-9999 <br> <br>
+                    Gen. Santos Cotabato Sul, Filipinas
+                </p>
+            </div>
+
+            <h2 class="h22">Formulário de Contato</h2>
+    <form class="forms" action="/enviar-formulario" method="post">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+        </div>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="assunto">Assunto:</label>
+            <input type="text" id="assunto" name="assunto" required>
+        </div>
+        <div>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+        </div>
+        <div>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </div>
+    </form>
+
+            <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22441.468913802826!2d125.15340969577768!3d6.113368824979077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f79cf31aca6663%3A0xcc2a0e32287d6748!2sGen.%20Santos%2C%20Cotabato%20Sul%2C%20Filipinas!5e0!3m2!1spt-BR!2sbr!4v1725987282311!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <div class="footer">
+                <a href="sobre.html">Sobre</a>
+                <a href="atendimentos.html">Atendimentos</a>
+                <a href="contatos.html">Contatos</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
